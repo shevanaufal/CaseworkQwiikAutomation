@@ -12,7 +12,7 @@ import java.time.Duration;
 public class checkout extends environment {
     @And("click addtocart button")
     public void click_addtocart_button(){
-        driver.findElement(addtocartButton).click();
+        driver.findElement(addtocartSauceLabsBackpackButton).click();
     }
 
     @When("click shopping cart icon")

@@ -12,7 +12,7 @@ public class environment {
     protected static By loginButton = By.xpath("//input[@id=\"login-button\"]");
     protected static By titleProduct = By.xpath("//span[contains(text(), 'Products')]");
     protected static By errorwordingLogin = By.xpath("//h3[@data-test=\"error\"]");
-    protected static By addtocartButton = By.xpath("//button[@id=\"add-to-cart-sauce-labs-backpack\"]");
+    protected static By addtocartSauceLabsBackpackButton = By.xpath("//button[@id=\"add-to-cart-sauce-labs-backpack\"]");
     protected static By shoppingcartIcon = By.xpath("//div[@class=\"shopping_cart_container\"]");
     protected static By checkoutButton = By.xpath("//button[@id=\"checkout\"]");
     protected static By continuecheckoutButton = By.xpath("//input[@id=\"continue\"]");
